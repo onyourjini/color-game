@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Match Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <h1>Color Match Game</h1>
+        <div class="sub">Choose <b>Color of</b> Words</div>
+
+        <div class="start">
+            <span>⏱️ <span id="time">30</span>seconds</span>
+            <span>Score <span id="score">0</span></span>
+            <span>Best <span id="best">0</span></span>
+        </div>
+
+        <div id="wordArea" class="word hidden"></div>
+        <div id="choiceArea" class="choice hidden"></div>
+        <div id="msg" class="msg"></div>
+
+        <button id="startBtn" class="start-btn">Start</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
